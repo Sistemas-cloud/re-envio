@@ -12,8 +12,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// 2026-03-26: Alineado con el encabezado de la página (re-envío de códigos).
 export const metadata: Metadata = {
-  title: "Envío de códigos - ag_alumno",
+  title: "Re-envío de códigos - ag_alumno",
   description: "Enviar correos con código a registros de ag_alumno",
 };
 

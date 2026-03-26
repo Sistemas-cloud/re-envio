@@ -251,8 +251,9 @@ export default function Home() {
     <div className="min-h-screen bg-slate-50">
       <header className="bg-white border-b border-slate-200 shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-6">
+          {/* 2026-03-26: Título de página actualizado a "Re-envío" según solicitud del producto. */}
           <h1 className="text-2xl font-bold text-slate-800 tracking-tight">
-            Envío de códigos por correo
+            Re-envío de códigos por correo
           </h1>
           <p className="text-slate-600 text-sm mt-1">
             Busca y filtra alumnos con email y envía su código por correo.
