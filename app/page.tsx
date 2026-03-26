@@ -258,6 +258,15 @@ export default function Home() {
           <p className="text-slate-600 text-sm mt-1">
             Busca y filtra alumnos con email y envía su código por correo.
           </p>
+          {/* 2026-03-26: URL del proyecto en producción */}
+          <a
+            href="https://re-envio.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-indigo-600 hover:text-indigo-800 text-xs mt-1 underline underline-offset-2"
+          >
+            re-envio.vercel.app
+          </a>
         </div>
       </header>
 
